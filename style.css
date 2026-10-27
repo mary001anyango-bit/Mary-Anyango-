@@ -1,0 +1,237 @@
+body{
+  background-color:black;
+  color:white ;
+}
+.team-section{
+    background:black;
+}
+.team-container{
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    margin-top:30px;
+}
+.team-card{
+    width:220px;
+    padding:25px;
+    text-align:center;
+    background:black;
+    border:1px solid#16466e;
+    border-radius:10px;
+}
+.team-card p{
+    color:#8fa8bf;
+}
+.contact-container{
+    display:grid;
+    grid-template-columns:1fr,2fr,1fr;
+    gap:30px;
+    margin-top:25px;
+}
+.contact-item{
+    display:flex;
+    gap:15px;
+    margin-bottom:25px;
+}
+.contact-item>i{
+    color:black;
+    font-size:20px;
+}
+.contact-item h4{
+    font-size:14px;
+    
+}
+.contact-item p{
+    color:#91a8bc;
+    font-size:12px;
+}
+form{
+    display:flex;
+    flex-direction:column;
+}
+.form-row{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    gap:10px;
+}
+label{
+    display:black;
+    font-size:12px;
+    color:#9db2c5;
+    margin-bottom:5px;
+}
+textarea{
+    height:100px;
+    resize:none;
+    margin-bottom:12px;
+}
+input,textarea{
+    width:100;
+    background:#071c30;
+    border:1px solid#16466e;
+    color:green;
+    padding:12px;
+    border-radius:5px;
+    outline:none;
+}
+input:focus,textarea:focus{
+    border-color:#079cff;
+}
+.send-btn{
+    background:#078ff5;
+    color:white;
+    border:none;
+    padding:12px;
+    border-radius:6px;
+    font-weight:bold;
+}.contact-quote{
+    font-size:22px;
+    font-style:italic;
+    color:#c6d3de;
+}
+footer{
+    padding:20px 8%;
+    display:flex;
+    justify-content:space-between;
+    color:#8199ad;
+    font-size:12px;
+}
+@media(max-width:700px){
+    nav{
+        flex-direction:column;
+        gap:15px;}
+        nav ul{
+            gap:12px;
+            flex-wrap:wrap;
+            justify-content:center;
+        }
+    .hero h1{
+        font-size:35px;
+    }
+    .hero h2{
+        font-size:22px;
+    }
+    .about-box{
+        flex-direction:column;
+        text-align:center;
+    }
+    .section{
+        padding:60px 18px;
+    }
+    .team-section{
+    background:black;
+}
+.team-container{
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    margin-top:30px;
+}
+.team-card{
+    width:220px;
+    padding:25px;
+    text-align:center;
+    background:black;
+    border:1px solid#16466e;
+    border-radius:10px;
+}
+.team-card p{
+    color:#8fa8bf;
+}
+.contact-container{
+    display:grid;
+    grid-template-columns:1fr,2fr,1fr;
+    gap:30px;
+    margin-top:25px;
+}
+.contact-item{
+    display:flex;
+    gap:15px;
+    margin-bottom:25px;
+}
+.contact-item>i{
+    color:black;
+    font-size:20px;
+}
+.contact-item h4{
+    font-size:14px;
+    
+}
+.contact-item p{
+    color:#91a8bc;
+    font-size:12px;
+}
+form{
+    display:flex;
+    flex-direction:column;
+}
+.form-row{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    gap:10px;
+}
+label{
+    display:black;
+    font-size:12px;
+    color:#9db2c5;
+    margin-bottom:5px;
+}
+textarea{
+    height:100px;
+    resize:none;
+    margin-bottom:12px;
+}
+input,textarea{
+    width:100;
+    background:#071c30;
+    border:1px solid#16466e;
+    color:green;
+    padding:12px;
+    border-radius:5px;
+    outline:none;
+}
+input:focus,textarea:focus{
+    border-color:#079cff;
+}
+.send-btn{
+    background:#078ff5;
+    color:white;
+    border:none;
+    padding:12px;
+    border-radius:6px;
+    font-weight:bold;
+}.contact-quote{
+    font-size:22px;
+    font-style:italic;
+    color:#c6d3de;
+}
+footer{
+    padding:20px 8px;
+    display:flex;
+    justify-content:space-between;
+    color:#8199ad;
+    font-size:12px;
+}
+@media(media-width:700px){
+    nav{
+        flex-direction:column;
+        gap:15px;}
+        nav ul{
+            gap:12px;
+            flex-wrap:wrap;
+            justify-content:center;
+        }
+    .hero h1{
+        font-size:35px;
+    }
+    .hero h2{
+        font-size:22px;
+    }
+    .about-box{
+        flex-direction:column;
+        text-align:center;
+    }
+    .section{
+        padding:60px 18px;
+    }
+    }
